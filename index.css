@@ -12,10 +12,29 @@
 
 @media screen and (max-width: 800px) {
     .typewriter {
-      left: 0;
-      padding: 50px;
+        left: 0;
+        padding: 50px;
+    }
+    .logo{
+        z-index: 0;
+        background-color: grey;
+        width: 100%;
+        height: 100vh;
     }
     .navbar{
         font-size:20px;
     }
+    .main,
+    .main header
+    {
+        padding: 40px;
+    }
+    .text h2
+    {
+        font-size: 3em;
+    }
+    .text h3
+    {
+        font-size: 2em;
   }
+}
